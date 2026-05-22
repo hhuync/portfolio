@@ -2282,3 +2282,26 @@ button,
     display: block;
     margin: auto;
 }
+@media screen and (max-width: 736px) {
+
+    #banner {
+        flex-direction: column;
+    }
+
+    #banner .content {
+        width: 100%;
+    }
+
+    #banner .image.object {
+        width: 100%;
+        margin-top: 2em;
+    }
+
+    #banner .image.object img {
+        width: 100%;
+        max-width: 280px;
+        margin: auto;
+        display: block;
+    }
+
+}
