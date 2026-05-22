@@ -2284,9 +2284,7 @@ button,
 }
 @media screen and (max-width: 736px) {
   #banner {
-    display: flex !important;
-    flex-direction: column !important;
-    align-items: center !important;
+    display: block !important;
   }
 
   #banner .content {
@@ -2294,15 +2292,17 @@ button,
   }
 
   #banner .image.object {
+    display: block !important;
     width: 100% !important;
     max-width: 300px !important;
-    margin: 0 auto 2em auto !important;
+    margin: 2em auto !important;
   }
 
   #banner .image.object img {
+    display: block !important;
     width: 100% !important;
     height: auto !important;
-    max-height: none !important;
-    object-fit: contain !important;
+    object-fit: unset !important;
+    object-position: center !important;
   }
 }
