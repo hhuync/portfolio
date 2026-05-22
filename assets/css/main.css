@@ -2283,25 +2283,26 @@ button,
     margin: auto;
 }
 @media screen and (max-width: 736px) {
+  #banner {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+  }
 
-    #banner {
-        flex-direction: column;
-    }
+  #banner .content {
+    width: 100% !important;
+  }
 
-    #banner .content {
-        width: 100%;
-    }
+  #banner .image.object {
+    width: 100% !important;
+    max-width: 300px !important;
+    margin: 0 auto 2em auto !important;
+  }
 
-    #banner .image.object {
-        width: 100%;
-        margin-top: 2em;
-    }
-
-    #banner .image.object img {
-        width: 100%;
-        max-width: 280px;
-        margin: auto;
-        display: block;
-    }
-
+  #banner .image.object img {
+    width: 100% !important;
+    height: auto !important;
+    max-height: none !important;
+    object-fit: contain !important;
+  }
 }
