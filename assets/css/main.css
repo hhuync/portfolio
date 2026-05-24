@@ -2282,27 +2282,3 @@ button,
     display: block;
     margin: auto;
 }
-@media screen and (max-width: 736px) {
-  #banner {
-    display: block !important;
-  }
-
-  #banner .content {
-    width: 100% !important;
-  }
-
-  #banner .image.object {
-    display: block !important;
-    width: 100% !important;
-    max-width: 300px !important;
-    margin: 2em auto !important;
-  }
-
-  #banner .image.object img {
-    display: block !important;
-    width: 100% !important;
-    height: auto !important;
-    object-fit: unset !important;
-    object-position: center !important;
-  }
-}
