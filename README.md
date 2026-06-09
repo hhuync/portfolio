@@ -54,6 +54,6 @@ My resume is available for view here: https://drive.google.com/file/d/1xkmR3byJ4
 
 ## Contact
 
-LinkedIn: [www.linkedin.com/in/johnnynguyen0403](http://www.linkedin.com/in/johnnynguyen0403)
+LinkedIn: [www.linkedin.com/in/hhuync](http://www.linkedin.com/in/hhuync)
 
 Email: [johnnynguyen0403@gmail.com](mailto:johnnynguyen0403@gmail.com)
