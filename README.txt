@@ -1,30 +1,59 @@
-Editorial by HTML5 UP
-html5up.net | @ajlkn
-Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+# Johnny Nguyen Portfolio
 
+This repository contains the source code for my personal portfolio website, built to showcase selected projects in data analytics, machine learning, and data visualization.
 
-Say hello to Editorial, a blog/magazine-ish template built around a toggleable "locking"
-sidebar (scroll down to see what I mean) and an accordion-style menu. Not the usual landing
-page/portfolio affair you'd expect to see at HTML5 UP, but I figured for my 41st (!!!)
-template I'd change it up a little. Enjoy :)
+## Overview
 
-Demo images* courtesy of Unsplash, a radtastic collection of CC0 (public domain) images
-you can use for pretty much whatever.
+The portfolio highlights academic and personal projects that demonstrate my experience with:
 
-(* = not included)
+* Data analysis and statistical modeling
+* Machine learning applications
+* Data visualization and dashboard design
+* Python and SQL-based workflows
+* Data storytelling and presentation
 
-AJ
-aj@lkn.io | @ajlkn
+The website serves as a central location for project summaries, visualizations, and links to supporting repositories and reports.
 
+## Featured Projects
 
-Credits:
+### Personalized Workout Recommendation Using Machine Learning
 
-	Demo Images:
-		Unsplash (unsplash.com)
+A machine learning classification project that explores personalized fitness recommendations through predictive modeling techniques.
 
-	Icons:
-		Font Awesome (fontawesome.io)
+### Rising Housing Costs and Young Adult Homeownership
 
-	Other:
-		jQuery (jquery.com)
-		Responsive Tools (github.com/ajlkn/responsive-tools)
+A data visualization project examining the relationship between housing affordability and homeownership trends among younger generations.
+
+### Tornado Impact Analysis Dashboard
+
+An interactive dashboard project analyzing tornado frequency, severity, and economic impact across different regions and time periods.
+
+### Pre- vs Post-COVID Data Scientist Job Market Analysis
+
+An exploratory analysis of shifts in data science job postings before and after the COVID-19 pandemic, focusing on skills, demand, and industry trends.
+
+## Technologies
+
+* Python
+* SQL
+* R
+* Power BI
+* Tableau
+* HTML/CSS
+* Git & GitHub
+
+## Portfolio Website
+
+View the live website:
+
+https://hhuync.github.io/portfolio/
+
+## Resume
+
+My resume is available for view here: https://drive.google.com/file/d/1xkmR3byJ4Fc2SyuQBAQSfK-OztDkQnXi/view?usp=sharing
+
+## Contact
+
+LinkedIn: [www.linkedin.com/in/johnnynguyen0403](http://www.linkedin.com/in/johnnynguyen0403)
+
+Email: [johnnynguyen0403@gmail.com](mailto:johnnynguyen0403@gmail.com)
