@@ -944,6 +944,19 @@
     }
 
     @media (max-width: 900px) {
+      .site-header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        z-index: 2000;
+      }
+
+      .page {
+        padding-top: 74px;
+      }
+
       .nav-links {
         display: none;
       }
@@ -1005,6 +1018,10 @@
     }
 
     @media (max-width: 600px) {
+      .page {
+        padding-top: 66px;
+      }
+
       .container {
         width: min(calc(100% - 28px), var(--max));
       }
