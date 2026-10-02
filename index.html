@@ -6,6 +6,9 @@
   <meta name="description" content="Johnny Nguyen — Data analyst and designer working across analytics, data visualization, UI/UX, and creative technology." />
   <title>Johnny Nguyen | Data + Design</title>
 
+  <link rel="icon" href="favicon.ico" sizes="any" />
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+
   <link rel="stylesheet" href="style.css" />
 </head>
 
@@ -23,7 +26,29 @@
           <a href="https://drive.google.com/file/d/1xkmR3byJ4Fc2SyuQBAQSfK-OztDkQnXi/view?usp=sharing" target="_blank" rel="noopener">Resume</a>
           <a class="nav-cta" href="mailto:johnnynguyen0403@gmail.com">Say hello</a>
         </nav>
+
+        <button
+          class="mobile-menu-toggle"
+          id="mobileMenuToggle"
+          type="button"
+          aria-label="Open navigation"
+          aria-expanded="false"
+          aria-controls="mobileMenu">
+          <span></span>
+          <span></span>
+        </button>
       </div>
+
+      <nav class="mobile-menu" id="mobileMenu" aria-label="Mobile navigation">
+        <div class="container mobile-menu-inner">
+          <a href="#work">Work <span aria-hidden="true">↘</span></a>
+          <a href="#creative">Design <span aria-hidden="true">↘</span></a>
+          <a href="#art">Art <span aria-hidden="true">↘</span></a>
+          <a href="#about">About <span aria-hidden="true">↘</span></a>
+          <a href="https://drive.google.com/file/d/1xkmR3byJ4Fc2SyuQBAQSfK-OztDkQnXi/view?usp=sharing" target="_blank" rel="noopener">Resume <span aria-hidden="true">↗</span></a>
+          <a href="mailto:johnnynguyen0403@gmail.com">Say hello <span aria-hidden="true">↗</span></a>
+        </div>
+      </nav>
     </header>
 
     <main id="top">
@@ -341,5 +366,6 @@
       </div>
     </footer>
   </div>
+  <script src="script.js"></script>
 </body>
 </html>
