@@ -47,7 +47,8 @@
     }
 
     .page {
-      overflow: hidden;
+      overflow-x: hidden;
+      overflow-y: visible;
     }
 
     .container {
@@ -58,7 +59,7 @@
     .site-header {
       position: sticky;
       top: 0;
-      z-index: 1000;
+      z-index: 2000;
       background: rgba(247, 247, 243, 0.86);
       backdrop-filter: blur(18px);
       border-bottom: 1px solid rgba(217, 217, 209, 0.75);
@@ -401,7 +402,7 @@
       border-radius: var(--radius-lg);
       overflow: hidden;
       background: var(--surface);
-      box-shadow: 0 12px 45px rgba(22, 22, 18, 0.05);
+      box-shadow: 0 6px 18px rgba(22, 22, 18, 0.035);
     }
 
     .featured-media {
@@ -525,8 +526,8 @@
     }
 
     .project-card:hover {
-      transform: translateY(-6px);
-      box-shadow: 0 22px 52px rgba(22, 22, 18, 0.08);
+      transform: translateY(-3px);
+      box-shadow: 0 8px 22px rgba(22, 22, 18, 0.045);
     }
 
     .project-image {
